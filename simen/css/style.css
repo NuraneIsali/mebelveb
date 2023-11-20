@@ -7242,6 +7242,7 @@ i:hover {
     height: auto;
     text-align: center;
     line-height: auto;
+    margin-right: 5px;
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-wishlist:before {
@@ -7257,6 +7258,7 @@ i:hover {
     height: auto;
     text-align: center;
     line-height: auto;
+    margin-right: 5px; ;
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-cart:before {
@@ -7287,6 +7289,7 @@ i:hover {
     height: auto;
     text-align: center;
     line-height: auto;
+    margin-right: 5px;
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-login:before {
@@ -7302,6 +7305,7 @@ i:hover {
     height: auto;
     text-align: center;
     line-height: auto;
+    margin-right: 5px;
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-logout:before {
@@ -7317,6 +7321,7 @@ i:hover {
     height: auto;
     text-align: center;
     line-height: auto;
+    margin-right: 5px;
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-myaccount:before {
@@ -7984,7 +7989,7 @@ i:hover {
     color: #333333;
     font-size: 20px;
     margin-bottom: 24px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 #sns_content .sns_producttaps_wraps ul.nav li a::before {
@@ -8135,7 +8140,8 @@ i:hover {
 }
 
 #sns_content .sns_suggest .suggest-content {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     border: 1px solid #eaeaea;
 }
@@ -8266,6 +8272,7 @@ i:hover {
     display: inline-block;
     background: #fff;
     padding-right: 25px;
+    text-transform: capitalize;
 }
 
 #sns_content .sns-products-list .products-small {
@@ -8926,7 +8933,7 @@ i:hover {
     font-size: 45px;
     font-weight: normal;
     color: #333;
-    margin-left: -45px;
+    margin-left: -245px;
 }
 @media  only screen and ( max-width:400px){ 
     #sns_header_logo .responsv a{
@@ -9571,6 +9578,7 @@ i:hover {
 
 #header-slideshow .slideshows #slider123 .item img {
     z-index: 0;
+    aspect-ratio: 285/272;
 }
 
 #header-slideshow .slideshows #slider123 .owl-controls {
@@ -10650,6 +10658,7 @@ i:hover {
 
 .header-style3 #sns_header #sns_menu #sns_header_logo h1 {
     padding: 22px 0 20px;
+    margin-right: 100px;
 }
 
 .header-style3 #sns_header #sns_menu #sns_header_logo .responsv1 {
@@ -12730,6 +12739,7 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
 }
 .price i{
     top: 1px;
+    margin-left: 2px;
 }
 
 .products-list>li.item .col-right .desc {
@@ -12986,7 +12996,7 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     color: #fff;
     z-index: 1;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 12px;
     line-height: 15px;
 }
@@ -13272,6 +13282,9 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     }
     .cms-simen-home-page #sns_header_bot .sns_banner1 {
         margin-top: 30px;
+    }
+    .sns_banner a img{
+        aspect-ratio: 585/199;
     }
     .cms-simen-home-page #sns_header_bot .sns_banner1 img {
         width: 100%;
