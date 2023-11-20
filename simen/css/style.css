@@ -2720,6 +2720,13 @@
 .sns_banner .post-text ul.policy li {
     padding: 3px 0;
 }
+.item-title a{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    
+}
 
 .sns_banner .post-text ul.policy li:before {
     content: '\e080';
@@ -8367,6 +8374,7 @@ i:hover {
     border: 1px solid #eaeaea;
     display: inline-block;
     transition: all 0.2s ease 0s;
+    aspect-ratio: 5/6;
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-img .product-image .img-main:hover {
@@ -8571,6 +8579,7 @@ i:hover {
 #sns_partners .slider-wrap .partners_slider_in #partners_slider1 .item a img {
     transition: all 0.25s ease 0s;
     object-fit: contain;
+    max-height: 180px;
 }
 
 #sns_partners .slider-wrap .partners_slider_in #partners_slider1 .item a img:hover {
@@ -17315,7 +17324,7 @@ body .jqtransformdone {
     display: block;
     position: relative;
     overflow: hidden;
-    aspect: ratio 600px / 558px; ;
+    aspect-ratio: ; 
 }
 
 .banner22:before {
