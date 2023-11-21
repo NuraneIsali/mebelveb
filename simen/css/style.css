@@ -7339,7 +7339,7 @@ i:hover {
 }
 
 #sns_header .sns_header_top .myaccount .content ul.links li a.top-link-myaccount:before {
-    font-size: 16px;
+    font-size: 13px;
     
 }
 #sns_header .sns_header_top .language-switcher.mysetting {
@@ -17766,4 +17766,7 @@ body .jqtransformdone {
 .lg{
     aspect-ratio: 149/46;
     width: 150px;
+}
+.icon{
+    font-size: 14px;
 }
