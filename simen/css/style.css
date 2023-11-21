@@ -8457,6 +8457,7 @@ i:hover {
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info .action-bot .wrap-addtocart .btn-cart span {
     transition: all 0.2s ease 0s;
     display: inline-block;
+    font-size: 14px;
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info .action-bot .wrap-addtocart .btn-cart:hover i,
@@ -17776,7 +17777,7 @@ body .jqtransformdone {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
-.blogdesk
+
 .end{
     width: 570px;
 }
