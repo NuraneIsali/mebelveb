@@ -12405,7 +12405,7 @@ body.eimg-translatey .products-grid .item .item-inner .item-img.have-additional:
 .products-grid.style_grid {
     margin: 0 -10px;
     display: flex;
-    flrex-wrap:wrap;
+    flex-wrap:wrap;
 }
 
 .products-grid.style_grid .item {
