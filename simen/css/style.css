@@ -8094,11 +8094,14 @@ i:hover {
     top: 44%;
     width: 36.2%;
 }
+.banner-content banner5 a img{
+    width: 570px;
+}
 
 #sns_content .sns_banner .style-button {
     display: inline-block;
     font-size: 13px;
-    text-transform: uppercase;
+    text-transform: unset;
     color: #fff;
     height: 35px;
     width: 115px;
@@ -17759,4 +17762,8 @@ body .jqtransformdone {
     content: none;
 
 
+}
+.lg{
+    aspect-ratio: 149/46;
+    width: 150px;
 }
