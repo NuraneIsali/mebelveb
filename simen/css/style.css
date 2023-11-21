@@ -8397,7 +8397,8 @@ i:hover {
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info {
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info .info-inner .item-title {
@@ -8984,7 +8985,6 @@ i:hover {
     font-size: 14px;
     color: #333;
     /*font-weight: bold;*/
-    text-transform: uppercase;
     margin-bottom: 2px;
 }
 
@@ -17748,4 +17748,14 @@ body .jqtransformdone {
     .col-lg-offset-2d4 {
         margin-left: 20%;
     }
+}
+.header-logo-contact{
+    display:flex;
+    justify-content: space-between;
+}
+.header-logo-contact.row::before,
+.header-logo-contact.row::after{
+    content: none;
+
+
 }
