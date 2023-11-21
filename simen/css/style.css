@@ -12126,6 +12126,7 @@ body.eimg-translatey .products-grid .item .item-inner .item-img.have-additional:
     display: block;
     margin: 0 auto;
     aspect-ratio: 216/259;
+    width:216px ;
 }
 
 .products-grid .item .item-inner .item-img .product-image .img-main:before {
