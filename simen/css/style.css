@@ -17770,3 +17770,24 @@ body .jqtransformdone {
 .icon{
     font-size: 14px;
 }
+.blogdesk {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.blogdesk
+.end{
+    width: 570px;
+}
+.pd-r{
+    padding-right: 40px;
+}
+.basliq{
+    display: inline-block;
+font-size: 14px;
+color:black;
+font-weight: bold;
+margin-top: -2px;
+
+}
