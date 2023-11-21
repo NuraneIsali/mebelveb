@@ -405,7 +405,7 @@
 }
 
 #logo{
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 
 
@@ -8958,7 +8958,7 @@ i:hover {
     font-size: 45px;
     font-weight: normal;
     color: #333;
-    margin-left: -245px;
+    /* margin-left: -245px; */
 }
 @media  only screen and ( max-width:400px){ 
     #sns_header_logo .responsv a{
@@ -12404,6 +12404,8 @@ body.eimg-translatey .products-grid .item .item-inner .item-img.have-additional:
 
 .products-grid.style_grid {
     margin: 0 -10px;
+    display: flex;
+    flrex-wrap:wrap;
 }
 
 .products-grid.style_grid .item {
