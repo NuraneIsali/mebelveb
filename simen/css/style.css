@@ -2731,7 +2731,7 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     
 }
 
@@ -8458,6 +8458,7 @@ i:hover {
     transition: all 0.2s ease 0s;
     display: inline-block;
     font-size: 14px;
+    color: red;
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info .action-bot .wrap-addtocart .btn-cart:hover i,
@@ -8797,6 +8798,7 @@ i:hover {
 
 #sns_footer_top .contact_us .fa-ul {
     padding-left: 2px;
+    margin-right: 50px;
 }
 
 #sns_footer_top .contact_us .fa-ul li {
@@ -17790,5 +17792,24 @@ font-size: 14px;
 color:black;
 font-weight: bold;
 margin-top: -2px;
+line-height: 2;
 
+}
+.foot-accaunt{
+    padding-left: 90px;
+}
+.fa-ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0.3px solid;
+}
+
+#sns_footer_top .contact_us .fa-ul li{
+    min-height: unset;
+}
+.fa-ul li i{
+    padding-left: 7px;
+    padding-bottom: 10px;
+    font-size: 13px;
 }
