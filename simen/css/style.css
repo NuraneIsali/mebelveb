@@ -16,6 +16,9 @@
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+.git{
+    aspect-ratio: 5/6;
+}
 
 .cms-index-index2 #sns_left #sns_testimonial .testimonials_slider_in .owl-controls {
     margin: 0;
@@ -427,6 +430,7 @@
     border: 1px solid #eaeaea;
     display: inline-block;
     transition: all 0.2s ease 0s;
+    aspect-ratio: 5/6;
 }
 
 .product_slider .bestsale .content .products-slider12 .item .item-inner .prd .item-img .product-image .img-main:hover,
@@ -818,6 +822,9 @@
 .block.sns-slider .container-slider .owl-item {
     position: relative;
     z-index: 0;
+}
+#sns_slideshow1 .container{
+    margin-top: -30px;
 }
 
 .block.sns-slider .container-slider .owl-item:not(.active)+.active .item .item-inner .gallery,
@@ -8169,6 +8176,7 @@ i:hover {
 
 #sns_content .sns_suggest .suggest-content .suggest-item img {
     width: 59%;
+    aspect-ratio: 76/91;
 }
 
 #sns_content .sns_suggest .suggest-content .suggest-item .title {
@@ -8580,6 +8588,7 @@ i:hover {
     transition: all 0.25s ease 0s;
     object-fit: contain;
     max-height: 180px;
+    aspect-ratio: 195/113;
 }
 
 #sns_partners .slider-wrap .partners_slider_in #partners_slider1 .item a img:hover {
@@ -8775,11 +8784,11 @@ i:hover {
 }
 
 #sns_footer_top .contact_us .fa-ul {
-    padding-left: 42px;
+    padding-left: 2px;
 }
 
 #sns_footer_top .contact_us .fa-ul li {
-    line-height: 20px;
+    line-height: 10px;
     min-height: 40px;
     margin-bottom: 8px;
     color: #666;
@@ -8792,7 +8801,7 @@ i:hover {
     border: 1px solid #eaeaea;
     border-radius: 100%;
     left: -45px;
-    line-height: 30px;
+    line-height: 10px;
     color: #888888;
     font-size: 13px;
     top: 4px;
@@ -9588,6 +9597,10 @@ i:hover {
 #header-slideshow .slideshows #slider123 .item img {
     z-index: 0;
     aspect-ratio: 285/272;
+    width: 570px;
+}
+.wd{
+    width: 270px;
 }
 
 #header-slideshow .slideshows #slider123 .owl-controls {
@@ -12112,6 +12125,7 @@ body.eimg-translatey .products-grid .item .item-inner .item-img.have-additional:
     position: relative;
     display: block;
     margin: 0 auto;
+    aspect-ratio: 216/259;
 }
 
 .products-grid .item .item-inner .item-img .product-image .img-main:before {
@@ -16277,6 +16291,9 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     background: url("images/big-errow.png") no-repeat !important;
     width: 38px !important;
 }
+.big{
+    aspect-ratio: 585/199;
+}
 
 .billing-form input[type='checkbox'] {
     margin: -1px 10px 0px 0px;
@@ -17324,7 +17341,10 @@ body .jqtransformdone {
     display: block;
     position: relative;
     overflow: hidden;
-    aspect-ratio: ; 
+}
+.pict a img{
+    width: 150px;
+    aspect-ratio: 149/46;
 }
 
 .banner22:before {
@@ -17531,12 +17551,16 @@ body .jqtransformdone {
     text-align: center;
 }
 
-.fa-ul li {
+.fa-ul li  {
     padding-top: 0;
 }
 
-.fa-ul li i {
-    margin-top: 3px;
+.fa-ul  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .fright {
