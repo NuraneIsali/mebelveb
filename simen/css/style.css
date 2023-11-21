@@ -8177,6 +8177,8 @@ i:hover {
 #sns_content .sns_suggest .suggest-content .suggest-item img {
     width: 59%;
     aspect-ratio: 76/91;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 #sns_content .sns_suggest .suggest-content .suggest-item .title {
@@ -8406,6 +8408,11 @@ i:hover {
     font-size: 13px;
     color: #666;
     transition: all 0.2s ease 0s;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info .info-inner .item-title a:hover {
@@ -16294,6 +16301,7 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
 }
 .big{
     aspect-ratio: 585/199;
+    
 }
 
 .billing-form input[type='checkbox'] {
