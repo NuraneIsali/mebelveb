@@ -12339,6 +12339,7 @@ body.eimg-translatey .products-grid .item .item-inner .item-img.have-additional:
 
 .products-grid .item .item-inner .action-bot .actions .add-to-links {
     display: table-row;
+    background-color: white;
 
 }
 
