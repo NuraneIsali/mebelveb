@@ -17962,9 +17962,10 @@ align-items: center;
 @media (min-width: 330px){
     .blog-pagev1 #sns_main .postWrapper .date{
         
-        font-size: 9px;
+        font-size: 8px;
         width: 45px;
         height: 28px;
+        padding-left: 5px;
     }
 
 
