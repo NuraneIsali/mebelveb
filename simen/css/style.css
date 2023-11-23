@@ -18,6 +18,7 @@
 }
 .git{
     aspect-ratio: 5/6;
+    width: 270px;
 }
 
 .cms-index-index2 #sns_left #sns_testimonial .testimonials_slider_in .owl-controls {
@@ -3250,7 +3251,7 @@ End Newsletter Popup*/
 
 .blog-pagev1 #sns_main .postWrapper.v1 {
     margin-top: 0;
-    margin-right: 30px;
+   width: 495;
 }
 
 .blog-pagev1 #sns_main .postWrapper.v1 .post-content {
@@ -3342,7 +3343,7 @@ End Newsletter Popup*/
 .blog-pagev1 #sns_main .postWrapper {
     margin-top: 0;
     margin-bottom: 60px;
-    margin-right: 30px;
+width: 49%;
 }
 
 .blog-pagev1 #sns_main .postWrapper .post-img {
@@ -3385,7 +3386,7 @@ End Newsletter Popup*/
 }
 
 .blog-pagev1 #sns_main .postWrapper .post-title a {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #333;
     line-height: 1;
@@ -8411,7 +8412,7 @@ i:hover {
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-img .product-image .img-main img {
     width: 100px;
-    height: 120px;
+    aspect-ratio: 5/6;
 }
 
 #sns_content .sns-products-list .products-small .item .item-inner .prd .item-info {
@@ -17940,16 +17941,19 @@ align-items: center;
 }
 .list-area li{
     display:flex;
+    align-items: center;
 }
 .part1{
     display: flex;
+    justify-content: space-between;
 }
 .part2{
     display: flex;
+    justify-content: space-between;
 }
 .post-img img{
-    aspect-ratio:405/205 ;
-    width: 405px;
+    aspect-ratio:870/440;
+    width: 100%;
 }
 .post-content{
     display: -webkit-box;
@@ -17959,10 +17963,10 @@ align-items: center;
 }
 
 
-@media (min-width: 330px){
+@media (max-width:576px){
     .blog-pagev1 #sns_main .postWrapper .date{
         
-        font-size: 8px;
+        font-size: 14px;
         width: 45px;
         height: 28px;
         padding-left: 5px;
@@ -17971,6 +17975,17 @@ align-items: center;
 
     }
 
+    @media (max-width:420px){
+        .blog-pagev1 #sns_main .postWrapper .date{
+            
+            font-size: 14px;
+            width: 45px;
+            height: 28px;
+            padding-left: 5px;
+        }
+    
+    
+        }
 
 
 
