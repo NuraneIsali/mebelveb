@@ -17986,11 +17986,56 @@ align-items: center;
     
     
         }
+        .postWrapper1{
+            width: 100%;
+        }
 
+        
+        .date span{
+            padding-top: 10px;
+            padding-left: 3px;
+        }
+    .postWrapper-second .date .poster:before{
 
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        content: "";
+        height: 10px;
+        width: 1px;
+        background: #efefef;
+        top: 5px;
 
+    }
+    .postWrapper-second .date {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #5f5f5f;
+        padding: 3px 0;
+        border: 1px solid #eaeaea;
+    
 
-
+    }
+    .postWrapper-second .post-title a {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+    }
+    .btn{
+        font-weight: bold;
+        color: white;
+        background-color: #e34444;
+    }
+    .blog-social a{
+color: #e34444;
+    }
+.postWrapper-second .post-img img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height:440px ;
+}
 
 
 
