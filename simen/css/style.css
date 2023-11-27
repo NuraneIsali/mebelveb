@@ -4303,7 +4303,7 @@ body.homepage #sns_breadcrumbs {
 }
 
 #sns_content .block.block-layered-nav dl#narrow-by-list dt {
-    text-transform: uppercase;
+    text-transform: unset;
     position: relative;
     color: #333333;
     padding: 16px 0px 0;
@@ -5907,7 +5907,7 @@ ul.mainnav li ul.menu li:last-child a {
     font-size: 20px;
     font-weight: bold;
     color: #333;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .detai-products1 .products-grid {
@@ -5989,7 +5989,7 @@ ul.mainnav li ul.menu li:last-child a {
     border: none;
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-radius: 0;
     border-right: 1px solid #eaeaea;
 }
@@ -6028,6 +6028,7 @@ ul.mainnav li ul.menu li:last-child a {
 
 .sns-product-detail .product-essential .product-img-box .detail-img img {
     border: 1px solid #eaeaea;
+    aspect-ratio: 800/960;
 }
 
 .sns-product-detail .product-essential .product-img-box .detail-img .deals {
@@ -6099,6 +6100,7 @@ ul.mainnav li ul.menu li:last-child a {
 
 .sns-product-detail .product-essential .product-img-box .small-img #sns_thumbail .item img {
     border: 1px solid #eaeaea;
+    aspect-ratio: 800/960;
 }
 
 .sns-product-detail .product-essential .product-img-box .small-img #sns_thumbail .owl-controls {
@@ -6922,7 +6924,7 @@ a:hover,
 span:hover,
 i:hover {
     transition: all 0.25s ease 0s;
-    text-decoration: none;
+text-decoration: none;
 }
 
 .no-breadcrumbs #sns_menu {
@@ -12804,6 +12806,7 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     color: #ccc;
 }
 .price i{
+    font-size: 12px;
     top: 1px;
     margin-left: 2px;
 }
@@ -15388,6 +15391,8 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     vertical-align: middle;
     margin: 0 5px 0 0;
     font-weight: normal;
+    width: 50px;
+    font-size: 16px;
 }
 
 .toolbar .sort-by>span {
@@ -15464,7 +15469,7 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
     padding-left: 10px;
     color: #666;
     font-size: 100%;
-    width: auto !important;
+    width: 150px;
 }
 
 .toolbar .sort-by .select-new .select-inner .jqTransformSelectWrapper div a.jqTransformSelectOpen {
@@ -15528,11 +15533,11 @@ body.eimg-translatey .products-list>li.item .col-left .item-img.have-additional:
 }
 
 .toolbar .sort-by .select-new .select-inner .jqTransformSelectWrapper {
-    width: 120px !important;
+    width: 180px !important;
 }
 
 .toolbar .sort-by .select-new .select-inner .jqTransformSelectWrapper ul {
-    width: 120px !important;
+    width: 180px !important;
 }
 
 .toolbar .sort-by .set-desc,
@@ -18046,11 +18051,81 @@ color: #e34444;
     max-height:440px ;
     object-fit: contain;
 }
+input[type=checkbox]
+{
+appearance: none;
+width: 15px;
+height: 15px;
+-webkit-appearance: none;
+background-color: #d5d5d5;
+position: relative;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+outline: none;
+}
+input[type=checkbox]::after{
+    content:"\f00c";
+    font-size: 12px;
+    color: #000000;
+    display: none;
+}
+.input{
+    display: flex;
+    width: 150px;
+    height: 30px;
+   
+    justify-content: space-between;
+    align-items: center;    
+
+}
+.input-color{
+width: 55px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+
+
+input[type=checkbox]:hover{
+background-color: #d5d5d5;
+outline: none;
+
+
+
+}
+
+input[type=checkbox]:checked{
+    background-color: #e34444;
+outline: none;
+}
+
+input[type=checkbox]:checked::after{
+display: block;
+
+
+
+
+}
 
 
 
 
 
+
+
+
+label{
+    color: #4c4c4c;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    top: 5px;
+}
 
 
 .buton span {
@@ -18062,6 +18137,9 @@ color: #e34444;
 }
 .number{
     width: 60px;
+    height: 30px;
+   border: 1px solid #eaeaea;
+    color: #666;
 }
 .submit{
 
@@ -18071,8 +18149,39 @@ border: none;
     font-size: 14px;
     font-weight: bold;
     margin-left: 10px;
+    padding: 7px;
 
 }
 .submit:hover{
     background-color:#e34444 ;
 }
+input[typee=checkbox]{
+
+
+    background-color: #000;
+    color: white;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
