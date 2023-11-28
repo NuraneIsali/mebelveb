@@ -365,6 +365,9 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    
+    margin-top: 40px;
+    margin-left: 80px;
 }
 
 .img-rounded {
@@ -708,6 +711,7 @@ dd {
 
 dt {
     font-weight: bold;
+    font-size: 17px;
 }
 
 dd {
@@ -894,6 +898,7 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px;
+    margin-top: 20px;
 }
 
 .col-xs-1,
@@ -4157,6 +4162,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .nav>li {
     position: relative;
     display: block;
+    background-color: #a3a0a01a;
 }
 
 .nav>li>a {
