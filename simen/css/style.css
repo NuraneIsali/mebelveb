@@ -3414,7 +3414,7 @@ width: 49%;
 }
 
 .blog-pagev1 #sns_main .postWrapper .post-content {
-    padding-top: 13px;
+   
     padding-bottom: 18px;
 }
 
@@ -3434,6 +3434,7 @@ width: 49%;
     padding: 10px 21px 9px;
     position:absolute;
     text-transform: capitalize;
+    width: 96px;
 }
 
 .blog-pagev1 #sns_main .postWrapper .link-readmore a:hover {
@@ -10337,6 +10338,8 @@ text-decoration: none;
 
 .sns-contact-us #contact_gmap .row.clearfix .col-md-8 .style1 {
     margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .sns-contact-us #contact_gmap .row.clearfix .col-md-8 #contactForm .buttons-set button {
@@ -17995,7 +17998,7 @@ align-items: center;
     @media (max-width:420px){
         .blog-pagev1 #sns_main .postWrapper .date{
             
-            font-size: 14px;
+            font-size: 8px;
             width: 45px;
             height: 28px;
             padding-left: 5px;
@@ -18095,20 +18098,22 @@ label{
     font-size: 14px;
     font-weight: ;
 }
-input[type="checkbox"]:after{
+input[type="checkbox"]::after{
 
-content: "\f00c";
+content: "";
 font-weight: 600;
 font-size: 16px;
 color: black;
-
+width: 15px;
+height: 15px;
 display: none;
-
+color: black;
 
 
 }
+
 input[type="checkbox"]:hover{
-    background-color: #5a5a5a;
+    background-color:#b9b9b9;
 
 }
 input[type="checkbox"]:checked{
@@ -18116,14 +18121,10 @@ input[type="checkbox"]:checked{
     background-color: #e34444;
 
 }
-input[type="checkbox"]:checked:after{
+input[type="checkbox"]:checked::after{
 display: block;
 
 }
-
-
-
-
 
 
 
@@ -18172,13 +18173,6 @@ border: none;
 .submit:hover{
     background-color:#e34444 ;
 }
-input[typee=checkbox]{
-
-
-    background-color: #000;
-    color: white;
-}
-
 
   
 .btn-whatsapp a {
@@ -18346,3 +18340,46 @@ color: #d3c6c696;
         height: 100%;
         object-fit: cover;
       }
+      @media(max-width:600px){
+
+.img-responsive{
+    display: none;
+}
+
+      }
+      
+      @media(max-width:600px){
+
+        
+.aboutInfo{
+    font-size: 14px;
+            width: 70%;
+        }
+        
+              }
+
+
+              .check1 a::before{
+
+                 
+    content: "";
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 2px;
+    color: #999;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    /* text-align: center; */
+    text-indent: 1px;
+    line-height: 1.3em;
+              }
+              
+              
+              
