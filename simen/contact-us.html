@@ -900,10 +900,11 @@
                                     <div class="mycart mini-cart">
                                         <div class="block-minicart">
                                             <div class="tongle">
-                                                <i class="fa fa-shopping-cart"></i>
+                                               
                                                 <div class="summary">
                                                     <span class="amount">
                                                         <a href="#">
+                                                            <i class="fa fa-shopping-cart"></i>
                                                             <span>3</span> ( items )
                                                         </a>
                                                     </span>
@@ -1015,43 +1016,71 @@
                                 </ul>
                             </div>
                             <div class="col-md-8">
-                                <p class="style1 web">Send an email. All fields with an (*) are required.</p>
-                                <form id="contactForm">
+                                <p class="style1">Send an email. All fields with an (*) are required.</p>
+                                <!--<form id="contactForm">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <input name="name" class="form-control required-entry input-text"
-                                                    id="name" placeholder="Adınız (*)" title="Name" value=""
-                                                    type="text" />
+                                                <input name="name" class="form-control required-entry input-text" id="name" placeholder="Name (*)" title="Name" value="" type="text">
                                             </div>
                                             <div class="form-group">
-                                                <input class="input-text form-control" name="telephone" id="telephone"
-                                                    placeholder="Telefon" title="Telephone" value="" type="text" />
+                                                <input name="email" class="form-control input-text required-entry validate-email" id="email" placeholder="E-mail (*)" title="Email" value="" type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="input-text form-control" name="telephone" id="telephone" placeholder="Telephone" title="Telephone" value="" type="text">
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <textarea name="comment" placeholder="Mətin daxil edin (*)" id="comment"
-                                                    title="Comment" class="form-control required-entry input-text"
-                                                    cols="5" rows="3"></textarea>
+                                                <textarea name="comment" placeholder="Comment (*)" id="comment" title="Comment" class="form-control required-entry input-text" cols="5" rows="3"></textarea>
                                             </div>
                                             <div class="buttons-set">
-                                                <input type="text" name="hideit" id="hideit" value=""
-                                                    style="display:none !important;" />
+                                                <input type="text" name="hideit" id="hideit" value="" style="display:none !important;">
                                                 <button type="submit" title="Submit" class="button">
-                                                    <span>Göndər</span>
+                                                    <span>Send Email</span>
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                </form>-->
+                                <form id="w0" class="contact-holder__form__body form-reset" action="/site/contact" method="post">
+                                    <input type="hidden" name="_csrf-frontend" value="6aOV7kZU2zYBz3uZ3zxUHlVSQGM1xPuKz0QKbdDEcJOw0M3fdjbpf0WqDNKORRNveCMaMmOeyfipMGYGofwc-g==">    <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="input-wrapper input-wrapper__space field-contactform-name_surname required has-error">
+                                    <input type="text" id="contactform-name_surname" class="input-control" name="ContactForm[name_surname]" placeholder="Ad, Soyad" aria-required="true" aria-invalid="true"><label class="floating-label" for="contactform-name_surname"></label><div class="help-block"></div>
+                                    </div>        </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="input-wrapper input-wrapper__space field-contactform-phone_number required has-error">
+                                    <input type="text" id="contactform-phone_number" class="input-control" name="ContactForm[phone_number]" placeholder="Telefon" aria-required="true" aria-invalid="true"><label class="floating-label" for="contactform-phone_number"></label><div class="help-block">.</div>
+                                    </div>        </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="input-wrapper input-wrapper__space field-contactform-email required has-error">
+                                    <input type="text" id="contactform-email" class="input-control" name="ContactForm[email]" placeholder="Email" aria-required="true" aria-invalid="true"><label class="floating-label" for="contactform-email"></label><div class="help-block"></div>
+                                    </div>        </div>
+                                            <div class="col-lg-12 col-md-12">
+                                                <div class="input-wrapper input-wrapper__space field-contactform-message required has-error">
+                                    <textarea id="contactform-message" class="input-control no-resize" name="ContactForm[message]" rows="5" placeholder="Mesajınız" aria-required="true" aria-invalid="true"></textarea><label class="floating-label" for="contactform-message"></label><div class="help-block">.</div>
+                                    </div>        </div>
+                                        </div>
+                                        <div class="contact-holder__form__action">
+                                            <button  style="border: none;outline: none;" class="btn btn-width-md btn-primary">Göndər</button>
+                                        </div>
+                                    </form>
+
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- AND CONTENT -->
+         </div>
+      </div>
+     
+
+
+
+
+              </div>
+        
+          
+
+
+
 
         <!-- PARTNERS -->
         <div id="sns_partners" class="wrap">
@@ -1218,18 +1247,20 @@
             </div>
         </div>
 
-    </div>
+    
     <!-- AND FOOTER -->
-    </div>
+    
     <!-- Scripts -->
+
+
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/less.min.js"></script>
     <script src="js/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/sns-extend.js"></script>
     <script src="js/custom.js"></script>
-    <!-- <script src="http://maps.googleapis.com/maps/api/js"></script> -->
-    <!-- <script>
+    <!-- <script src="http://maps.googleapis.com/maps/api/js"></script> 
+     <script>
         function initialize() {
             var mapProp = {
                 center: new google.maps.LatLng(51.508742, -0.120850),
@@ -1239,7 +1270,148 @@
             var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
         }
         google.maps.event.addDomListener(window, 'load', initialize);
-    </script> -->
+
+
+
+});-->
+      
+ <!--<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.querySelector('#contactForm');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            validateForm();
+        });
+
+        function validateForm() {
+            var nameSurnameInput = document.getElementById('contactform-name_surname');
+            var customerCodeInput = document.getElementById('contactform-customer_code');
+            var phoneNumberInput = document.getElementById('contactform-phone_number');
+            var emailInput = document.getElementById('contactform-email');
+            var messageInput = document.getElementById('contactform-message');
+
+            if (!nameSurnameInput.value.trim()) {
+                showError(nameSurnameInput, 'Ad, Soyad boş qoyula bilməz.');
+            } else {
+                hideError(nameSurnameInput);
+            }
+
+            // Müştəri kodu alanının validasyonu (opsiyonel, gerekirse ekleyebilirsiniz)
+
+            if (!phoneNumberInput.value.trim()) {
+                showError(phoneNumberInput, 'Telefon boş qoyula bilməz.');
+            } else {
+                hideError(phoneNumberInput);
+            }
+
+            if (!emailInput.value.trim()) {
+                showError(emailInput, 'Email boş qoyula bilməz.');
+            } else {
+                hideError(emailInput);
+            }
+
+            if (!messageInput.value.trim()) {
+                showError(messageInput, 'Mesaj boş qoyula bilməz.');
+            } else {
+                hideError(messageInput);
+            }
+        }
+
+        function showError(inputElement, errorMessage) {
+            inputElement.parentElement.classList.add('has-error');
+            var helpBlock = inputElement.nextElementSibling;
+            helpBlock.textContent = errorMessage;
+        }
+
+        function hideError(inputElement) {
+            inputElement.parentElement.classList.remove('has-error');
+            var helpBlock = inputElement.nextElementSibling;
+            helpBlock.textContent = '';
+        }
+    });
+</script>-->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var form = document.querySelector('#w0');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        var validationPassed = validateForm();
+
+        if (validationPassed) {
+            // Eğer tüm validasyonlar başarılıysa, formu gönder
+            form.submit();
+        }
+    });
+
+    function validateForm() {
+        var nameSurnameInput = document.getElementById('contactform-name_surname');
+        var customerCodeInput = document.getElementById('contactform-customer_code');
+        var phoneNumberInput = document.getElementById('contactform-phone_number');
+        var emailInput = document.getElementById('contactform-email');
+        var messageInput = document.getElementById('contactform-message');
+
+        var isValid = true;
+
+        // Ad, Soyad alanı validasyonu
+        if (!nameSurnameInput.value.trim()) {
+            showError(nameSurnameInput, 'Ad, Soyad boş qoyula bilməz.');
+            isValid = false;
+        } else {
+            hideError(nameSurnameInput);
+        }
+
+        // Müştəri kodu alanının validasyonu (opsiyonel, gerekirse ekleyebilirsiniz)
+
+        // Telefon alanı validasyonu
+        if (!phoneNumberInput.value.trim()) {
+            showError(phoneNumberInput, 'Telefon boş qoyula bilməz.');
+            isValid = false;
+        } else {
+            hideError(phoneNumberInput);
+        }
+
+        // Email alanı validasyonu
+        if (!isValidEmail(emailInput.value.trim())) {
+            showError(emailInput, 'Email boş qoyula bilməz');
+            isValid = false;
+        } else {
+            hideError(emailInput);
+        }
+
+        // Mesaj alanı validasyonu
+        if (!messageInput.value.trim()) {
+            showError(messageInput, 'Mesaj boş qoyula bilməz.');
+            isValid = false;
+        } else {
+            hideError(messageInput);
+        }
+
+        // Formun geri kalanı için gerekirse ek validasyonlar yapabilirsiniz.
+
+        return isValid;
+    }
+
+    function showError(inputElement, errorMessage) {
+        inputElement.parentElement.classList.add('has-error');
+        var helpBlock = inputElement.nextElementSibling.nextElementSibling;
+        helpBlock.textContent = errorMessage;
+    }
+
+    function hideError(inputElement) {
+        inputElement.parentElement.classList.remove('has-error');
+        var helpBlock = inputElement.nextElementSibling.nextElementSibling;
+        helpBlock.textContent = '';
+    }
+
+    function isValidEmail(email) {
+        var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        return email.match(emailPattern);
+    }
+});
+
+</script>
 </body>
 
 </html>

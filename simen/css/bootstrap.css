@@ -2254,7 +2254,7 @@ select[multiple].input-lg {
 .has-error .checkbox,
 .has-error .radio-inline,
 .has-error .checkbox-inline {
-    color: #a94442;
+    color: #e34444;
 }
 
 .has-error .form-control {
@@ -2391,8 +2391,15 @@ select[multiple].input-lg {
 
 .btn:hover,
 .btn:focus {
-    color: #333;
+    color:white;
     text-decoration: none;
+    background-color: #e34444;
+}
+.btn{
+color: black;
+background-color: transparent;
+border: 0.2px solid ;
+
 }
 
 .btn:active,
@@ -2472,8 +2479,6 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #3276b1;
-    border-color: #285e8e;
 }
 
 .btn-primary:active,
