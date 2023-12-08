@@ -3366,7 +3366,8 @@ width: 49%;
     color: #5f5f5f;
     padding: 3px 0;
     border: 1px solid #eaeaea;
-    margin-right: 60px;
+    width: 100px;
+    height: 25px;
     
 }
 
@@ -3400,9 +3401,6 @@ width: 49%;
     font-weight: bold;
     color: #333;
     line-height: 1;
-}
-.post-title {
-
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
@@ -3425,16 +3423,22 @@ width: 49%;
 .blog-pagev1 #sns_main .postWrapper .link-readmore {
     display: inline-block;
 }
+.line{
+    
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
 
 .blog-pagev1 #sns_main .postWrapper .link-readmore a {
     border: 1px solid #efefef;
     color: #666;
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: bold;
     padding: 10px 21px 9px;
     position:absolute;
     text-transform: capitalize;
-    width: 96px;
 }
 
 .blog-pagev1 #sns_main .postWrapper .link-readmore a:hover {
@@ -5830,6 +5834,7 @@ ul.mainnav li ul.menu li:last-child a {
 
 .detai-products1 {
     position: relative;
+    width: 1200px;
 }
 
 .detai-products1 .owl-controls {
@@ -5951,6 +5956,7 @@ ul.mainnav li ul.menu li:last-child a {
 
 #sns_mainm .description .sns_producttaps_wraps1 {
     position: relative;
+    width: 1200px;
 }
 
 #sns_mainm .description .sns_producttaps_wraps1 .detail-none {
@@ -6012,7 +6018,9 @@ ul.mainnav li ul.menu li:last-child a {
     border: 1px solid #eaeaea;
     border-top: none;
 }
-
+.style1{
+    font-size: 13px;
+}
 #sns_mainm .description .sns_producttaps_wraps1 .tab-content .style1 .top {
     margin-bottom: 19px;
 }
@@ -8873,6 +8881,7 @@ text-decoration: none;
 
 #sns_footer_bottom .sns-copyright {
     text-align: center;
+    margin-left: 300px;
 }
 
 #sns_footer_bottom .sns-copyright a {
@@ -8998,7 +9007,8 @@ text-decoration: none;
     font-size: 45px;
     font-weight: normal;
     color: #333;
-    /* margin-left: -245px; */
+     margin-left: -215px; 
+     padding-top: 30px;
 }
 @media  only screen and ( max-width:400px){ 
     #sns_header_logo .responsv a{
@@ -18236,12 +18246,18 @@ border: none;
 font-size: 16px;
 font-weight: bold;
 
+
+
+        }
+
+        #sns_left{
+            margin-top:px;
         }
         .line{
 display: -webkit-box;
 overflow: hidden;
 -webkit-box-orient: vertical;
--webkit-line-clamp: 4;
+-webkit-line-clamp: 2;
 
 font-size: 13px;
 
@@ -18396,8 +18412,6 @@ font-size: 14px;
 
 
               
-              .container form {
-                margin-top: 30px;
               }
               form .field {
                 margin-bottom: 20px;
@@ -18464,11 +18478,8 @@ font-size: 14px;
               .button-field input:hover {
                 background-color: #e34444;
               }
-              .contact-info{
 
-margin-top: 80px;
-
-              }
+              
                .swiper-button-prev:after {
                 /* font-family: swiper-icons; */
                 /* font-size: var(--swiper-navigation-size); */
@@ -18842,6 +18853,7 @@ margin-top: 80px;
 .row {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 /* Formdaki her bir sütunun stil ayarları */
