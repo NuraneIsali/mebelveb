@@ -17950,7 +17950,7 @@ align-items: center;
     display: block;
 }
 
-@media (min-width: 330px){
+@media (max-width: 330px){
 .tongle .icon i{
     color: white;
     font-size: 13px;
@@ -18045,6 +18045,7 @@ align-items: center;
         color: #5f5f5f;
         padding: 3px 0;
         border: 1px solid #eaeaea;
+        width: 100px;
     
 
     }
